@@ -1,0 +1,98 @@
+.__z_commitments_cont {
+	padding-top: 110px;
+	padding-bottom: 0;
+}
+
+.__z_commitments_section {
+	max-width: 670px;
+	text-align: center;
+	padding: 0 80px 80px 80px;
+}
+
+.__z_commitments_h3 {
+	font-size: 34px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	line-height: 43px;
+}
+
+.__z_commitments_p {
+	font-size: 1.1rem;
+	line-height: 1.75rem;
+	margin-bottom: 25px;
+	overflow: hidden;
+	text-transform: initial;
+	letter-spacing: 0;
+}
+
+.__z_commitments_section_goals {
+	padding-bottom: 0;
+}
+
+.__z_commitments_h2 {
+	font-size: 27px;
+	line-height: 36px;
+	font-weight: 700;
+}
+
+.__z_commitments_bullet {}
+
+.__z_commitments_p_smaller {
+	font-size: 1.03rem;
+	line-height: 1.6rem;
+	overflow: hidden;
+	text-transform: initial;
+	letter-spacing: 0;
+	margin-top: 0 !important;
+}
+
+.__z_commitments_row_cont {
+	margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+	.__z_commitments_cont .__z_commitments_bullet::before {
+		font-size: 26px;
+		height: 48px;
+		line-height: 48px;
+		width: 48px;
+	}
+}
+
+@media (max-width: 767px) {
+	.__z_commitments_cont {
+		padding-top: 60px;
+		padding-bottom: 0;
+	}
+	.__z_commitments_h3 {
+		font-size: 28px;
+    margin-bottom: 15px;
+    line-height: 38px;
+    padding: 0 20px;
+	}
+	.__z_commitments_h2 {
+		font-size: 24px;
+    line-height: 32px;
+	}
+	.__z_commitments_section {
+		margin-bottom: 50px;
+    line-height: 40px;
+    padding: 0 20px;
+	}
+	.__z_commitments_bullet {
+		    margin-bottom: 20px;
+	}
+	.__z_commitments_p_smaller {
+		padding-left: 50px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+}
+.__z_commitments_row_cont {
+	margin-bottom: 50px;
+}
+.__z_commitments_p {
+	font-size: 0.95rem;
+line-height: 1.54rem;
+}
+}

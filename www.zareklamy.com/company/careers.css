@@ -1,0 +1,1426 @@
+.tooltip {
+	background: #fff;
+	font-size: 13px;
+	border: 1px solid #bdc4c6;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 25%), 0 -2px 5px -2px rgb(0 0 0 / 25%);
+	padding: 16px;
+	color: #333;
+	border-radius: 3px;
+	box-sizing: border-box;
+	font-size: 12px;
+	line-height: 1.5;
+	word-wrap: break-word;
+	max-width: 250px;
+	font-weight: 400;
+	white-space: normal;
+}
+
+.__z_cont {
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-orient: column;
+	-webkit-box-direction: column;
+	align-items: center;
+	-webkit-box-align: center;
+}
+
+.__z_center {
+	text-align: center;
+}
+
+.__z_main_text {
+	margin-bottom: 40px;
+	color: #253858;
+	text-align: center;
+	font-weight: 700;
+	font-size: 31px;
+	line-height: 1.12;
+}
+
+.__z_categories {
+	box-sizing: content-box;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.__z_categories_search {
+	flex-basis: 50%;
+	max-width: 50%;
+	padding-left: 8px;
+	padding-right: 8px;
+	box-sizing: border-box;
+	min-height: 1px;
+	-webkit-box-flex: 0;
+	flex: 0 0 auto;
+	flex: 1;
+}
+
+.__z_jobs_apply_filename_cont {
+	display: inline-block;
+	width: 100%;
+}
+
+.__z_jobs_apply_error {
+	color: #e01e5a;
+	margin-bottom: 17px;
+	font-size: 14px;
+}
+
+.__z_jobs_apply_filename_block {
+	max-width: 100%;
+	background-color: rgba(69, 87, 92, 0.15);
+	color: rgb(69, 87, 92);
+	height: 42px;
+	min-width: 42px;
+	font-size: 13px;
+	display: -webkit-inline-box;
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	-webkit-border-radius: 21px;
+	-moz-border-radius: 21px;
+	border-radius: 21px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.__z_jobs_apply_filename_span {
+	cursor: default;
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 4px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.__z_jobs_apply_filename_close {
+	opacity: 0.5;
+	display: -webkit-inline-box;
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	cursor: pointer;
+	flex-shrink: 0;
+	padding: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	shape-rendering: geometricPrecision;
+	box-sizing: content-box;
+	fill: currentColor;
+}
+
+.__z_jobs_apply_filename_close:hover {
+	opacity: 1;
+}
+
+.__z_categories_category {
+	padding-left: 8px;
+	padding-right: 8px;
+	flex-basis: 25%;
+	max-width: 25%;
+	flex: 1;
+}
+
+.__z_no_results {
+	width: 100%;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-orient: column;
+	-webkit-box-direction: column;
+	align-items: center;
+	-webkit-box-align: center;
+}
+
+.__z_no_results_img {
+	display: flex;
+}
+
+.__z_no_results_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.__z_no_results_text_main {
+	margin-bottom: 4px;
+	margin-top: 12px;
+	color: #757575;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 0;
+}
+
+.__z_no_results_text_sub {
+	margin-bottom: 10px;
+	color: #757575;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.42;
+	padding: 0;
+}
+
+.__z_careers_button_show:hover {
+	background-color: rgba(43, 148, 225, .2);
+}
+
+.__z_careers_button_show:active,
+.__z_careers_button_show:focus,
+.__z_careers_button_show:hover {
+	outline: 0;
+	text-decoration: none;
+}
+
+.__z_careers_button_show {
+	color: #157ff1;
+	background-color: transparent;
+	position: relative;
+	display: inline-block;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+	font-family: inherit;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	outline: 0;
+	box-shadow: none;
+	cursor: pointer;
+	box-sizing: border-box;
+	overflow: visible;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: transparent;
+	height: 26px;
+	min-width: 26px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 12px;
+	-webkit-transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	-o-transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	transition: all .2s cubic-bezier(.645, .045, .355, 1);
+}
+
+.__z_careers_button_show_1 {
+	display: -webkit-inline-box;
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.__z_careers_button_show_2 {
+	margin-left: 8px;
+	margin-right: 8px;
+	display: -webkit-inline-box;
+	display: inline-flex;
+	line-height: 1;
+}
+
+.__z_careers_button_show_3 {
+	font-size: 14px;
+	line-height: 1.42;
+	margin: 0;
+	padding: 0;
+}
+
+.__z_categories_location {
+	padding-left: 8px;
+	padding-right: 8px;
+	flex-basis: 25%;
+	max-width: 25%;
+	flex: 1;
+}
+
+.__z_table {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-orient: column;
+	-webkit-box-direction: column;
+	align-items: center;
+	-webkit-box-align: center;
+}
+
+.__z_table_cont {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.__z_table_sub th {
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #333;
+	cursor: default;
+	box-sizing: border-box;
+	z-index: 1;
+	padding: 10px;
+	vertical-align: middle;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	border: 0;
+}
+
+table tr {
+	background-color: #fff;
+}
+
+table tr:nth-of-type(even) {
+	background: #fff;
+}
+
+table tr th {
+	background-color: #fff;
+}
+
+.__z_table_sub_position {
+	box-shadow: inset 0 -1px 0 0 #a6b0b3;
+	width: auto;
+}
+
+.__z_table_sub_category {
+	box-shadow: inset 0 -1px 0 0 #a6b0b3;
+	width: 25%;
+}
+
+.__z_table_sub_location {
+	box-shadow: inset 0 -1px 0 0 #a6b0b3;
+	width: 25%;
+}
+
+.__z_table_row {
+	-webkit-transition: background-color .1s ease;
+	transition: background-color .1s ease;
+}
+
+.__z_table_row:hover {
+	background-color: #f6f7f7;
+	background: #f6f7f7;
+	cursor: pointer;
+}
+
+.__z_table_row_cell {
+	position: relative;
+	width: auto;
+	font-size: 13px;
+	line-height: 20px;
+	color: #333;
+	box-shadow: inset 0 -1px 0 0 #dee3e5;
+	padding: 10px;
+	vertical-align: top;
+	text-align: left;
+	background: inherit;
+	box-sizing: border-box;
+	border: 0;
+	letter-spacing: 0.2px;
+}
+
+.__z_cont_select {
+	display: inline-block;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	line-height: normal;
+	position: relative;
+	touch-action: manipulation;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-shadow: none;
+	outline: none;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+	overflow: visible;
+	outline: 0;
+	text-align: center;
+	vertical-align: middle;
+	font-family: inherit;
+	cursor: pointer;
+	border: 1px solid transparent;
+	background: #fff;
+	color: #333;
+	height: 42px;
+	min-width: 42px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 14px;
+	border-color: #a6b0b3;
+	width: 100%;
+	outline: 0;
+	text-decoration: none;
+	text-decoration: none;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.__z_input_cont {
+	display: -webkit-inline-box;
+	display: inline-flex;
+	width: 100%;
+	-webkit-box-align: center;
+	align-items: center;
+	position: relative;
+	z-index: 0;
+	vertical-align: middle;
+	padding: 0 1px;
+	box-sizing: border-box;
+	font-size: 16px;
+	height: 42px;
+}
+
+.__z_input {
+	padding-left: 0;
+	padding-right: 0;
+	padding: 0 12px;
+	min-width: 0;
+	width: 100%;
+	height: calc(100% - 2px);
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+	color: #333;
+	font-size: inherit;
+	line-height: 1;
+	text-overflow: ellipsis;
+	font-family: inherit;
+	background: transparent;
+	font-size: 14px;
+}
+
+.__z_input:focus {
+	outline: none;
+}
+
+.__z_input_outline {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border: 1px solid;
+	z-index: -1;
+	background: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-color: #a6b0b3;
+}
+
+.__z_input:focus~.__z_input_outline {
+	border-color: #2b94e1;
+	box-shadow: 0 0 0 3px rgb(43 148 225 / 30%);
+	outline: 0;
+}
+
+.__z_input_search {
+	display: inline-flex;
+	width: 100%;
+	-webkit-box-align: center;
+	align-items: center;
+	position: relative;
+	z-index: 0;
+	vertical-align: middle;
+	padding: 0 1px;
+	box-sizing: border-box;
+	font-size: 16px;
+	height: 42px;
+}
+
+.__z_input_search_cont {
+	padding: 0 12px;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-flex: 0;
+	flex: 0 0 auto;
+	height: 100%;
+	color: #666;
+}
+
+.__z_jobs_header_btn_1 {
+	min-width: 150px;
+}
+
+.__z_jobs_header_btn_2 {
+	width: 200px;
+}
+
+.__z_input_search_icon {
+	display: inline-block;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	shape-rendering: geometricPrecision;
+	box-sizing: content-box;
+	fill: currentColor;
+	color: #666666;
+	margin-bottom: 0 !important;
+}
+
+.__z_main_text_sub {
+	color: #848484;
+	margin: 0;
+	padding: 0;
+}
+
+.__z_jobs_cont {
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 70px;
+}
+
+.__z_jobs_width {
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.__z_jobs_sub_cont {
+	display: flex;
+	flex-direction: column;
+	-webkit-box-orient: column;
+	-webkit-box-direction: column;
+}
+
+.__z_jobs_header {
+	width: 100%;
+	z-index: 100;
+}
+
+.__z_jobs_header_sub {
+	position: relative;
+	transform: translate3d(0px, 0px, 0px);
+}
+
+.__z_jobs_header_sub_1 {
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	gap: 60px;
+	padding: 12px 0px;
+	position: relative;
+}
+
+.__z_jobs_text_content {
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	gap: 60px;
+}
+
+.__z_jobs_text_content> :first-of-type {
+	grid-column-start: 2;
+	line-height: 24px;
+}
+
+.__z_jobs_header_go_to {
+	background: rgba(0, 0, 0, .1);
+	cursor: pointer;
+	color: #000;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	display: inline-block;
+	text-align: center;
+	text-transform: none;
+	font: 13px/1 Roboto, arial, sans-serif;
+	text-decoration: none;
+	width: 100%;
+	font-weight: 500;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	-o-transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	outline: 0;
+	border: 0;
+}
+
+.__z_apply_href {
+	outline: 0;
+}
+
+.__z_jobs_header_go_to_icon {
+	margin-right: 10px;
+}
+
+.__z_jobs_header_go_to_icon svg {
+	margin-top: -3px
+}
+
+.__z_jobs_header_go_to:active {
+	background-color: rgba(0, 0, 0, .05);
+}
+
+.__z_jobs_header_go_to:focus,
+.__z_jobs_header_go_to:hover {
+	background-color: rgba(0, 0, 0, .05);
+	color: #000;
+	text-decoration: none !important;
+}
+
+.__z_jobs_header_main_text {
+	margin-top: 0%;
+	color: #253858;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	margin: 0;
+	padding: 0;
+}
+
+.__z_jobs_header_apply {
+	background: #157ff1;
+	cursor: pointer;
+	color: #fff;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	display: inline-block;
+	text-align: center;
+	text-transform: none;
+	font: 15px/1 Roboto, arial, sans-serif;
+	text-decoration: none;
+	width: 100%;
+	font-weight: 500;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	-o-transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	outline: 0;
+	border: 0;
+}
+
+.__z_jobs_header_apply:active {
+	background-color: #0860cc;
+}
+
+.__z_jobs_header_apply:focus,
+.__z_jobs_header_apply:hover {
+	background-color: #40a3ff;
+}
+
+.__z_jobs_header_apply:focus {
+	outline: 0;
+	box-shadow: 0 0 0 0 #1264a3, 0 0 0 5px rgb(82 168 236 / 30%);
+	border-color: transparent;
+	border: 0;
+	-webkit-appearance: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.__z_jobs_apply {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-orient: column;
+	-webkit-box-direction: column;
+	align-items: center;
+	-webkit-box-align: center;
+	justify-content: center;
+	-webkit-box-pack: center;
+}
+
+.__z_jobs_apply_main_text {
+	margin-bottom: 24px;
+	margin-top: 0%;
+	color: #253858;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 1.15;
+	padding: 0;
+}
+
+.__z_jobs_apply_sub_text {
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 1.4;
+	padding: 0;
+}
+
+.__z_jobs_apply_cont {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-orient: column;
+	-webkit-box-direction: column;
+	align-items: center;
+	-webkit-box-align: center;
+	justify-content: space-between;
+	-webkit-box-pack: space-between;
+}
+
+.__z_jobs_apply_input_cont {
+	margin-bottom: 24px;
+	width: 320px;
+	display: flex;
+	position: relative;
+}
+
+.__z_jobs_apply_input_sub_cont {
+	position: absolute;
+	text-align: right;
+	margin-right: 16px;
+	left: calc(-320px - 16px);
+	margin-top: 8px;
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-orient: column;
+	-webkit-box-direction: column;
+}
+
+.__z_jobs_apply_input_sub_cont_text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+}
+
+.__z_jobs_apply_input_inp_cont {
+	display: inline-block;
+	width: 100%;
+}
+
+.__z_jobs_apply_input_inp_cont_sub {
+	display: flex;
+	justify-content: flex-end;
+	-webkit-box-pack: flex-end;
+}
+
+.__z_jobs_apply_input_inp_cont_after {
+	width: 100%;
+	font-size: 16px;
+	height: 42px;
+	display: -webkit-inline-box;
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	position: relative;
+	z-index: 0;
+	vertical-align: middle;
+	padding: 0 1px;
+	box-sizing: border-box;
+}
+
+.__z_jobs_apply_input_block {
+	padding: 0 12px;
+	min-width: 0;
+	width: 100%;
+	height: calc(100% - 2px);
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+	color: #333;
+	line-height: 1;
+	text-overflow: ellipsis;
+	background: transparent;
+	padding: 0 12px;
+	font-size: 14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.__z_jobs_apply_input_outline {
+	border-color: #868686;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border: 1px solid #868686;
+	z-index: -1;
+	background: #fff;
+}
+
+.__z_jobs_apply_input_sub_cont_text_small {
+	font-size: 13px;
+	line-height: 1.3;
+	color: #aaaaaa;
+	margin: 0;
+	padding: 0;
+}
+
+.__z_apply_invalid .__z_jobs_apply_input_outline,
+.__z_apply_invalid .__z_jobs_apply_input_textarea_cont_after,
+.__z_apply_invalid.__z_jobs_apply_resume_btn_cont,
+.__z_apply_invalid.__z_jobs_apply_checkbox_tick:before {
+	border-color: #e01e5a;
+}
+
+.__z_jobs_apply_cont .__z_apply_invalid input[type=email]:focus,
+.__z_jobs_apply_cont .__z_apply_invalid input[type=password]:focus,
+.__z_jobs_apply_cont .__z_apply_invalid input[type=text]:focus,
+.__z_jobs_apply_cont .__z_apply_invalid textarea:focus {
+	box-shadow: 0 0 0 1px #e01e5a, 0 0 0 5px rgba(224, 30, 90, .3)!important;
+	border: 1px solid transparent!important;
+}
+
+.__z_jobs_apply_input_textarea_cont_after {
+	padding: 11px 12px;
+	font-size: 16px;
+	line-height: 1.5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height: auto;
+	color: #333;
+	border: 1px solid #868686;
+	outline: none;
+	resize: none;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 14px;
+}
+
+.__z_jobs_apply_resume_cont {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	-webkit-box-align: center;
+}
+
+.__z_jobs_apply_resume_btn_cont {
+	color: #157ff1;
+	background-color: transparent;
+	height: 42px;
+	min-width: 42px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	position: relative;
+	display: inline-block;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+	font-family: inherit;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	outline: 0;
+	box-shadow: none;
+	cursor: pointer;
+	box-sizing: border-box;
+	overflow: visible;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	-o-transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	transition: all .2s cubic-bezier(.645, .045, .355, 1);
+}
+
+.__z_jobs_apply_resume_btn_cont:hover {
+	background-color: rgba(43, 148, 225, .2);
+}
+
+.__z_jobs_apply_resume_btn_cont:active {
+	background-color: rgba(43, 148, 225, .3);
+}
+
+.__z_jobs_apply_resume_btn_text {
+	display: -webkit-inline-box;
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.__z_jobs_apply_resume_btn_icon {
+	margin-left: 12px;
+	display: -webkit-inline-box;
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+}
+
+.__z_jobs_apply_resume_btn_icon svg {
+	display: inline-block;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	shape-rendering: geometricPrecision;
+	box-sizing: content-box;
+	fill: currentColor;
+}
+
+.__z_jobs_apply_resume_btn_subtext {
+	margin-left: 12px;
+	margin-right: 12px;
+	display: -webkit-inline-box;
+	display: inline-flex;
+	line-height: 1;
+}
+
+.__z_jobs_apply_resume_btn_file {
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	-webkit-clip: rect(1px, 1px, 1px, 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	z-index: -1;
+}
+
+.__z_jobs_apply_resume_info_cont {
+	margin-left: 8px;
+	margin-top: -2px;
+	display: inline-block;
+}
+
+.__z_jobs_apply_resume_info_cont svg {
+	cursor: help;
+	color: #a6b0b3;
+	display: inline-block;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	shape-rendering: geometricPrecision;
+	box-sizing: content-box;
+	fill: currentColor;
+}
+
+.__z_jobs_text_block {
+	font-size: 14px;
+	line-height: 23px;
+	color: #323234;
+	font-weight: 400;
+}
+
+.__z_jobs_text_h4 {
+	font-size: 25px;
+	line-height: 1.12;
+	font-weight: 500;
+	margin: 0 0 12px;
+	margin-top: 24px;
+	font-weight: 700;
+	color: #253858;
+}
+
+.__z_jobs_apply_success {
+	margin-top: 70px;
+	margin-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-orient: column;
+	-webkit-box-direction: column;
+	align-items: center;
+	-webkit-box-align: center;
+	justify-content: center;
+	-webkit-box-pack: center;
+}
+
+.__z_jobs_apply_success svg {
+	color: rgb(79, 174, 51);
+	display: inline-block;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	shape-rendering: geometricPrecision;
+	box-sizing: content-box;
+	fill: currentColor;
+}
+
+.__z_jobs_apply_success_text {
+	font-size: 14px;
+	line-height: 1.5;
+	color: rgb(51, 51, 51);
+	text-align: center;
+	padding: 0;
+	margin-top: 14px;
+}
+
+.__z_jobs_apply_checkbox_cont {
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding-left: 12px;
+	box-sizing: border-box;
+	width: 100%;
+	display: inline-flex;
+	display: -webkit-inline-box;
+	display: inline-flex;
+	-webkit-box-align: start;
+	align-items: flex-start;
+}
+
+.__z_jobs_apply_checkbox_click {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.__z_jobs_apply_checkbox_tick {
+	position: relative;
+	flex-shrink: 0;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	z-index: 0;
+	margin-top: 1px;
+	width: 16px;
+	height: 16px;
+}
+
+.__z_jobs_apply_checkbox_tick:before {
+	border-color: #a6b0b3;
+}
+
+.__z_jobs_apply_checkbox_click:checked~.__z_jobs_apply_checkbox_tick:before {
+	background-color: #2b94e1;
+	border-color: #2b94e1;
+}
+
+.__z_jobs_apply_checkbox_tick:after,
+.__z_jobs_apply_checkbox_tick:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.__z_jobs_apply_checkbox_tick:before {
+	background: #fff;
+	border: 1px solid;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.__z_jobs_apply_checkbox_tick:after {
+	margin: 0 2px;
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA4IDYnIGZpbGw9JyNmZmYnPjxwYXRoIGQ9J003Ljg4NC43ODJMNy4yMDUuMTA3YS40LjQgMCAwMC0uNTU5IDBMMy4wNzMgMy42NjMgMS4zNTMgMS45NWEuNC40IDAgMDAtLjU1OCAwbC0uNjc5LjY3NUEuMzg0LjM4NCAwIDAwMCAyLjg5N2EuNC40IDAgMDAuMTE1LjI4NGwyLjY3OSAyLjY2NWEuNC40IDAgMDAuNTU5IDBsNC41MzEtNC41MDhBLjQuNCAwIDAwOCAxLjA1M2EuMzgyLjM4MiAwIDAwLS4xMTYtLjI3MXonLz48L3N2Zz4=);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+.__z_jobs_apply_checkbox_tick:after,
+.__z_jobs_apply_checkbox_tick:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.__z_jobs_apply_checkbox_text {
+	margin-left: 8px;
+	font-size: 14px;
+	line-height: 1.4;
+	padding: 0;
+}
+
+.__z_jobs_apply_cont input[type=email]:focus,
+.__z_jobs_apply_cont input[type=password]:focus,
+.__z_jobs_apply_cont input[type=text]:focus,
+.__z_jobs_apply_cont textarea:focus {
+	outline: 0;
+	box-shadow: 0 0 0 0 #1264a3, 0 0 0 5px rgb(82 168 236 / 30%);
+	border-color: #1264a3;
+	-webkit-appearance: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.__z_jobs_apply_cont input[type=email]:focus,
+.__z_jobs_apply_cont input[type=password]:focus,
+.__z_jobs_apply_cont input[type=text]:focus {
+	padding: 0 12px;
+}
+
+.__z_jobs_apply_cont input[type=email]:focus,
+.__z_jobs_apply_cont input[type=password]:focus,
+.__z_jobs_apply_cont input[type=text]:focus .__z_jobs_apply_input_inp_cont_after .__z_jobs_apply_input_outline {
+	border-color: #868686;
+}
+
+.__z_jobs_apply_input_block:focus+.__z_jobs_apply_input_outline {
+	border-radius: 5px;
+	border-color: #1264a3;
+}
+
+.__z_jobs_apply_cont textarea:focus {
+	padding: 11px 12px;
+	border-bottom-width: 1px;
+}
+
+.__z_country_us {
+	background-image: url(../../zrcdn.net/images/icons/countries/us.png);
+}
+
+.__z_country_pl {
+	background-image: url(../../zrcdn.net/images/icons/countries/pl.png);
+}
+
+.__z_country_gb {
+	background-image: url(../../zrcdn.net/images/icons/countries/gb.png);
+}
+
+.__z_jobs_country {
+	background-size: 19px 19px;
+	height: 19px;
+	width: 19px;
+	min-width: 19px;
+	margin-top: -3px;
+	margin-right: 7px;
+	margin-left: 0;
+	display: inline-block;
+}
+
+.__z_jobs_country_text {
+	font-size: 14px;
+}
+
+.__z_jobs_header_location {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.__z_jobs_send_application_cont {
+	margin-top: 12px;
+	display: flex;
+	justify-content: center;
+	-webkit-box-pack: center;
+}
+
+.__z_jobs_send_application_button {
+	background: #157ff1;
+	    cursor: pointer;
+	    color: #fff;
+	    padding: 16px 30px;
+	    display: inline-block;
+	    text-align: center;
+	    text-transform: none;
+	    font: 15px/1 Roboto, arial, sans-serif;
+	    text-decoration: none;
+	    width: auto;
+	    font-weight: 500;
+	    border-radius: 4px;
+	    -webkit-transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	    -o-transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	    transition: all .2s cubic-bezier(.645, .045, .355, 1);
+	    outline: 0;
+	    border: 0;
+}
+
+.__z_jobs_send_application_button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0 #1264a3, 0 0 0 5px rgb(82 168 236 / 30%);
+    border-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.__z_jobs_send_application_button:focus, .__z_jobs_send_application_button:hover {
+    background-color: #40a3ff;
+}
+.__z_jobs_send_application_button:active {
+    background-color: #0860cc;
+}
+
+.__z_jobs_send_application_button_text {
+	display: -webkit-inline-box;
+	display: inline-flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.__z_jobs_send_application_button_text_in {
+	margin-left: 12px;
+	margin-right: 12px;
+	display: -webkit-inline-box;
+	display: inline-flex;
+	line-height: 1;
+}
+
+.__z_jobs_send_application_button_disabled {
+	opacity: .3;
+	cursor: default;
+	pointer-events: none;
+}
+
+.__z_jobs_send_application_loader_cont {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: flex;
+}
+
+@keyframes rotate_inf {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.__z_jobs_send_application_loader_icon {
+	width: 24px;
+	height: 24px;
+	border-width: 4px;
+	color: #0f0;
+	margin: auto;
+	display: block;
+	flex-shrink: 0;
+	box-sizing: border-box;
+	-webkit-animation: rotate_inf .75s linear infinite;
+	animation: rotate_inf .75s linear infinite;
+	border-radius: 50%;
+	border-style: solid;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+}
+
+.__z_jobs_section svg,
+.__z_jobs_cont svg {
+	margin-bottom: 0 !important;
+}
+
+.__z_jobs_text_block ol,
+.__z_jobs_text_block ul {
+	margin: 8px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.__z_jobs_text_block ul li {
+	display: list-item;
+}
+
+.__z_jobs_text_block ol li:first-child:before,
+.__z_jobs_text_block ul li:first-child:before {
+	border-top: 0;
+}
+
+.__z_jobs_text_block ul li::before {
+	float: left;
+}
+
+.__z_jobs_text_block ul li:before {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	margin-top: 9px;
+	margin-left: 2px;
+}
+
+.__z_jobs_text_block ul li:before {
+	content: "";
+	flex-shrink: 0;
+	background-color: #757575;
+}
+
+.__z_jobs_text_block ol li:before,
+.__z_jobs_text_block ul li:before {
+	display: table-cell;
+	text-align: right;
+	color: #757575;
+}
+
+.__z_jobs_text_block li:before {
+	margin-right: 12px;
+}
+
+.__z_jobs_section {
+	padding: 40px 0 44px;
+}
+
+@media (min-width: 768px) {
+	.__z_jobs_section {
+		padding: 48px 0 64px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.__z_jobs_section {
+		padding: 88px 0 84px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.__z_jobs_header_go_to_icon svg {
+		margin-top: -2px;
+	}
+	.__z_jobs_apply_input_sub_cont_resume {
+		display: none;
+	}
+	.__z_cont {
+		width: auto;
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-top: 48px;
+	}
+	.__z_jobs_cont {
+		width: auto;
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-top: 60px;
+	}
+	.__z_jobs_width {
+		width: auto;
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-top: 0;
+	}
+	.__z_jobs_header_sub_1 {
+		grid-template-columns: 5fr 2fr;
+		gap: 32px;
+	}
+	.__z_jobs_header_btn_1 {
+		justify-self: start;
+		grid-column: 1 / 3;
+	}
+	.__z_jobs_text_content {
+		display: flex;
+	}
+	.__z_jobs_apply_input_cont {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.__z_jobs_apply_input_sub_cont {
+		position: relative;
+		text-align: left;
+		width: 100%;
+		left: 0;
+		margin-top: 0;
+		margin-right: 0;
+		margin-bottom: 8px;
+	}
+	.__z_jobs_apply_input_sub_cont_text_small {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.__z_jobs_apply {
+		margin-top: 70px;
+		margin-bottom: 60px;
+	}
+}
+
+@media (max-width: 667px) {
+	.__z_jobs_apply_input_cont {
+		width: 100%;
+		max-width: 320px;
+	}
+	.__z_categories {
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.__z_categories_search,
+	.__z_categories_category,
+	.__z_categories_location {
+		-webkit-flex-basis: 100%;
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+		max-width: 100%;
+		margin-bottom: 16px;
+	}
+	.__z_table_sub_category,
+	.__z_cell_category {
+		display: none;
+	}
+	.__z_jobs_header_btn_2 {
+		justify-self: start;
+		grid-column-start: 1;
+	}
+	.__z_jobs_header_sub_1 {
+		grid-template-columns: 100%;
+		gap: 24px;
+	}
+}

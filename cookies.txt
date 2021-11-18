@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.zareklamy.com	TRUE	/	FALSE	1999999999	PHPSESSID	0754a31f7a9e7f6e5eeae4a425e73472
+www.zareklamy.com	TRUE	/	FALSE	1999999999	z_lang	1
+www.zareklamy.com	TRUE	/	FALSE	1999999999	lang	ko
+
